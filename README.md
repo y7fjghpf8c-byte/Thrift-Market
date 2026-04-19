@@ -30,7 +30,8 @@ It is important to create a user-friendly interface which will allow customers t
 ## Design and User Experience
 Webflow (2025) This design will be fresh and modern, using the combination of innovation and creativity to creating an appealing design. Colour and good images will be used to make the site readable and user-friendly. Sections will be properly segmented, and there will be an increased focus on the presentation of products. navigation Menus will be located in the header of the page, with additional features appearing in the footer.
 SITEMAP/HIERATICAL INFORMATION   
- 
+ ## Sitemap
+ ![Image alt](https://github.com/y7fjghpf8c-byte/Thrift-Market/blob/66915c75269f83b3b113a4443b67a4e5681bbf42/sitemap.png)
 ## WIREFRAMES
 
  ![image alt](https://github.com/y7fjghpf8c-byte/Thrift-Market/blob/eaf6f5d1f635ee5b7302054d8083a12ccdd97353/Images/Wireframes%20(1).jpg)
