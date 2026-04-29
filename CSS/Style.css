@@ -1,0 +1,43 @@
+* {
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: 0rem;
+}
+
+
+/* Header/Navigation section */
+
+.Logo {
+    justify-self: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-color: black;
+    font-family: "Press Start 2P";
+}
+
+.Nav-links {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    font-family: "Press Start 2P";
+}
+
+.Nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: yellow;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    font-family: "Press Start 2P";
+}
+
+header {
+    border-style: dashed;
+    border-width: 5px;
+    border-color: black;
+}
