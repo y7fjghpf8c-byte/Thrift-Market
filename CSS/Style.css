@@ -37,7 +37,60 @@
 }
 
 header {
-    border-style: dashed;
+    border-style: solid;
     border-width: 5px;
     border-color: black;
+}
+
+
+/* Main section */
+
+
+/* Index page */
+
+#Vid-Text {
+    position: absolute;
+    display: flex;
+    font-family: "Press Start 2P";
+    margin: 50px;
+    top: 50%;
+    left: 40%;
+}
+
+video {
+    width: 100%;
+    height: auto;
+}
+
+
+/* Services page main section */
+
+.Items {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.Items .Items-Description {
+    border: solid;
+    border-width: 2px;
+    border-color: black;
+    font-family: "Press Start 2P";
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+
+/* Schedule main section */
+
+.Schedule {
+    display: inline-block;
+    text-align: center;
+    border-color: black;
+    margin: 2rem;
 }
