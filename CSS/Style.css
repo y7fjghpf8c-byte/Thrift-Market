@@ -4,6 +4,15 @@
     box-sizing: 0rem;
 }
 
+body {
+    background-color: whitesmoke;
+    color: black;
+}
+
+ul {
+    list-style: none;
+}
+
 
 /* Header/Navigation section */
 
@@ -11,8 +20,8 @@
     justify-self: center;
     margin-top: 2rem;
     margin-bottom: 2rem;
-    border-color: black;
-    font-family: sans-serif;
+    font-family: "Press Start 2P", cursive;
+    color: black;
 }
 
 .Nav-links {
@@ -22,19 +31,18 @@
     align-items: center;
     gap: 2rem;
     font-family: sans-serif;
+    color: whitesmoke;
 }
 
 .Nav a {
     text-decoration: none;
     padding: 0.5rem;
-    color: black;
+    color: whitesmoke;
     font-size: 0.9rem;
     font-weight: bold;
-    background-color: rgb(227, 220, 220);
-    border-left-color: yellow border-style: none;
+    background-color: seagreen;
     border-width: 2px;
     border-radius: 10px;
-    border-color: black;
     font-family: sans-serif;
 }
 
@@ -59,8 +67,6 @@ header {
 }
 
 video {
-    padding: 0px;
-    margin: 0px;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -83,17 +89,17 @@ video {
 
 .Items {
     Border-style: solid;
-    border-color: black;
+    border-color: yellowgreen;
     border-radius: 10px;
-    background-color: gray white;
     padding: 1rem;
 }
 
 .Items-Description {
     border-style: none;
     border-radius: 10px;
-    background-color: rgb(227, 220, 220);
+    background-color: seagreen;
     padding: 1rem;
+    color: whitesmoke;
     align-items: center;
     justify-content: center;
 }
@@ -105,7 +111,7 @@ video {
     display: inline-block;
     text-align: center;
     border-style: solid;
-    border-color: black;
+    border-color: yellowgreen;
     border-radius: 10px;
     padding: 2rem;
     margin: 2rem;
@@ -113,6 +119,17 @@ video {
 
 
 /* Footer  section */
+
+.Heading-Foot {
+    font-family: sans-serif;
+    color: whitesmoke;
+    border-style: none;
+    border-bottom: solid;
+    border-width: 2.5px;
+    border-color: yellowgreen;
+    border-radius: 10px;
+    margin: 0.5rem;
+}
 
 .Footer {
     padding: 1rem;
@@ -123,15 +140,19 @@ video {
     gap: 2rem;
     border-style: none;
     border-radius: 10px;
-    background-color: rgb(227, 220, 220);
+    background-color: seagreen;
 }
 
-.Footer .Follow-us {
-    display: inline-block;
-    text-align: center;
-    border-style: none;
-    border-color: black;
+.Follow-us {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
     font-family: sans-serif;
+    text-decoration: none;
+    font-size: medium;
+    font-weight: bolder;
 }
 
 
@@ -142,7 +163,7 @@ video {
     justify-content: center;
     align-items: center;
     margin: 4rem;
-    border-color: yellow;
+    border-color: yellowgreen;
     border-radius: 30px;
     border-style: solid;
     border-width: 2px;
@@ -164,6 +185,7 @@ video {
     text-align: center;
     align-items: center;
     align-content: center;
+    ;
 }
 
 #Contact-Info {
@@ -177,4 +199,64 @@ video {
     justify-content: center;
     gap: 0.5rem;
     font-family: sans-serif;
+}
+
+
+/* Items sold */
+
+.Container-services {
+    display: flex;
+    border-style: none;
+    border-radius: 30px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 1rem;
+}
+
+.Container-Tops {
+    display: flex;
+    border-style: none;
+    border-radius: 30px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 1rem;
+}
+
+.Container-Bottoms {
+    display: flex;
+    border-style: none;
+    border-radius: 30px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 1rem;
+}
+
+
+/*Contact Us*/
+
+#Form {
+    Border-Style: solid;
+    display: inline-block;
+    border-color: yellowgreen;
+    border-radius: 30px;
+    padding: 1rem;
+    margin: 2rem;
+}
+
+#Contact-Us {
+    display: flex;
+    border-style: solid;
+    border-color: yellowgreen;
+    border-radius: 30px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 1rem;
 }
