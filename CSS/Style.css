@@ -22,6 +22,13 @@ ul {
     margin-bottom: 2rem;
     font-family: "Press Start 2P", cursive;
     color: black;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.Logo i {
+    border-radius: 50px;
+    padding: 0.5rem;
+    background-color: yellowgreen;
 }
 
 .Nav-links {
@@ -32,6 +39,8 @@ ul {
     gap: 2rem;
     font-family: sans-serif;
     color: whitesmoke;
+    border-style: none;
+    border-color: yellowgreen;
 }
 
 .Nav a {
@@ -128,19 +137,38 @@ video {
     border-width: 2.5px;
     border-color: yellowgreen;
     border-radius: 10px;
-    margin: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.col-Footer {
+    font-family: sans-serif;
+    color: black;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+    display: block;
+}
+
+.col-Footer a {
+    text-decoration: none;
+    color: black;
 }
 
 .Footer {
     padding: 1rem;
     margin: 1rem;
-    gap: 2rem;
+    gap: 4rem;
     display: flex;
     justify-content: center;
-    gap: 2rem;
-    border-style: none;
+    border-style: solid;
+    border-color: yellowgreen;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     border-radius: 10px;
     background-color: seagreen;
+    flex-direction: row;
+    gap: 15rem;
+    padding: 1rem;
+    font-weight: bold;
 }
 
 .Follow-us {
