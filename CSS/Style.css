@@ -54,6 +54,18 @@ ul {
     border-width: 2px;
     border-radius: 10px;
     box-shadow: 0px 4px 8px seagreen;
+    transition: transform 0.15s ease, box-shadow 0.15s ease, background-color 0.15s ease;
+}
+
+.Nav a:hover {
+    transform: translateY(-2px);
+    background-color: yellowgreen;
+    box-shadow: 0px 6px 14px seagreen;
+}
+
+.Nav a:focus-visible {
+    outline: 3px solid rgba(154, 205, 50, 0.7);
+    outline-offset: 2px;
 }
 
 header {
@@ -71,13 +83,12 @@ header {
 
 /* Index page */
 
-#Vid-Text {
-    position: absolute;
+#Index-Hero {
     display: flex;
-    margin: 50px;
-    top: 50%;
-    left: 40%;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin: 4rem;
 }
 
 #Vid {
@@ -94,15 +105,17 @@ video {
     margin-top: 2rem;
     border-radius: 10px;
     position: relative;
-    box-shadow: 0px 4px 8px rgb(65, 65, 201);
+    box-shadow: 0px 4px 8px purple;
 }
 
 #Vid-p {
     display: flex;
     justify-content: center;
     align-items: center;
+    align-items: center;
     align-content: center;
-    margin: 2rem;
+    width: 50%;
+    height: 50%;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     box-shadow: 0px 4px 8px purple;
     padding: 1rem;
@@ -133,12 +146,12 @@ video {
 .Items-Description {
     border-style: none;
     border-radius: 10px;
-    background-color: seagreen;
+    background-color: yellowgreen;
     padding: 1rem;
     color: whitesmoke;
     align-items: center;
     justify-content: center;
-    box-shadow: 0px 4px 8px seagreen;
+    box-shadow: 0px 4px 8px yellowgreen;
 }
 
 
@@ -153,19 +166,25 @@ video {
     box-shadow: 0px 4px 8px yellowgreen;
 }
 
+.Schedule img {
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px yellowgreen;
+    padding: 0.5rem;
+}
+
 
 /* Footer  section */
 
 .Heading-Foot {
     color: whitesmoke;
     border-style: none;
-    border-bottom: solid;
+    border-bottom: none;
     border-width: 2.5px;
-    border-color: seagreen;
+    background-color: SEAGREEN;
     text-shadow: 2px 2px 4px seagreen;
     border-radius: 10px;
     margin-bottom: 1rem;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 4px 8px seagreen;
 }
 
 .col-Footer {
@@ -338,5 +357,91 @@ video {
     justify-content: center;
     gap: 30px;
     padding: 1rem;
-    margin: 1.5rem;
+    margin: 1.5rem
+}
+
+#Contact-Info Input {
+    border-radius: 10px;
+    border-style: none;
+    padding: 0.5rem;
+}
+
+#Comment-form {
+    border-style: none;
+    border-radius: 30px;
+    padding: 1rem;
+    box-shadow: 0px 4px 8px yellowgreen;
+    width: 80%;
+    height: 200px;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+#Comment-form textarea {
+    border-radius: 10px;
+    border-style: none;
+    padding: 0.5rem;
+    width: 90%;
+    height: 100px;
+}
+
+#Comment-form button {
+    border-radius: 10px;
+    border-style: none;
+    padding: 0.5rem;
+    width: 30%;
+    background-color: YELLOWGREEN;
+    color: whitesmoke;
+    font-weight: bold;
+    box-shadow: 0px 4px 8px seagreen;
+}
+
+
+/* Hover for contact button */
+
+#Comment-form button:hover {
+    background-color: seagreen;
+    transform: translateY(-1px);
+    box-shadow: 0px 8px 18px seagreen;
+}
+
+#Comment-form button {
+    transition: transform 0.15s ease, box-shadow 0.15s ease, background-color 0.15s ease;
+}
+
+.Items-border,
+.Items,
+.Schedule {
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.Items-border:hover {
+    transform: translateY(-3px);
+    box-shadow: 0px 10px 22px rgb(63, 63, 148);
+}
+
+.Items:hover {
+    transform: translateY(-3px);
+    box-shadow: 0px 10px 22px seagreen;
+}
+
+.Schedule:hover {
+    transform: translateY(-3px);
+    box-shadow: 0px 10px 22px yellowgreen;
+}
+
+.col-Footer a:hover {
+    text-decoration: underline;
+    color: seagreen;
+}
+
+.Follow-us i:hover {
+    transform: translateY(-2px);
+    color: seagreen;
+}
+
+.Follow-us i {
+    transition: transform 0.15s ease, color 0.15s ease;
 }
