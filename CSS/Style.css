@@ -5,8 +5,11 @@
 }
 
 body {
-    background-color: whitesmoke;
     color: black;
+    background-color: whitesmoke;
+    font-family: cursive;
+    font-size: 0.9rem;
+    font-weight: small;
 }
 
 ul {
@@ -20,7 +23,7 @@ ul {
     justify-self: center;
     margin-top: 2rem;
     margin-bottom: 2rem;
-    font-family: "Press Start 2P", cursive;
+    font-family: cursive;
     color: black;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
@@ -37,30 +40,32 @@ ul {
     justify-content: center;
     align-items: center;
     gap: 2rem;
-    font-family: sans-serif;
     color: whitesmoke;
-    border-style: none;
-    border-color: yellowgreen;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .Nav a {
     text-decoration: none;
     padding: 0.5rem;
-    color: whitesmoke;
+    color: rgb(255, 255, 255);
     font-size: 0.9rem;
     font-weight: bold;
     background-color: seagreen;
     border-width: 2px;
     border-radius: 10px;
-    font-family: sans-serif;
+    box-shadow: 0px 4px 8px seagreen;
 }
 
 header {
-    margin: 5px;
-    padding: 5px;
+    margin: 20px;
     border-style: none;
     border-width: 5px;
-    border-color: black;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px seagreen;
+    background-color: rgb(255, 252, 252);
+    padding: 1rem;
+    margin-bottom: 2rem;
 }
 
 
@@ -69,20 +74,41 @@ header {
 #Vid-Text {
     position: absolute;
     display: flex;
-    font-family: sans-serif;
     margin: 50px;
     top: 50%;
     left: 40%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#Vid {
+    justify-content: center;
+    display: flex;
 }
 
 video {
     justify-content: center;
     align-items: center;
-    width: 100%;
-    height: 100%;
-    border-style: none;
-    border-radius: 50px;
+    align-content: center;
+    width: 80%;
+    height: 80%;
+    margin-top: 2rem;
+    border-radius: 10px;
     position: relative;
+    box-shadow: 0px 4px 8px rgb(65, 65, 201);
+}
+
+#Vid-p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 2rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 4px 8px purple;
+    padding: 1rem;
+    border-radius: 10px;
+    margin-top: 1rem;
+    background-color: rgb(255, 252, 252);
 }
 
 
@@ -94,13 +120,14 @@ video {
     justify-content: center;
     gap: 5rem;
     margin: 4rem;
+    box-shadow: 0px 4px 8px yellowgreen;
 }
 
 .Items {
-    Border-style: solid;
-    border-color: yellowgreen;
     border-radius: 10px;
     padding: 1rem;
+    box-shadow: 0px 4px 8px seagreen;
+    margin: 1rem;
 }
 
 .Items-Description {
@@ -111,6 +138,7 @@ video {
     color: whitesmoke;
     align-items: center;
     justify-content: center;
+    box-shadow: 0px 4px 8px seagreen;
 }
 
 
@@ -119,29 +147,28 @@ video {
 .Schedule {
     display: inline-block;
     text-align: center;
-    border-style: solid;
-    border-color: yellowgreen;
     border-radius: 10px;
     padding: 2rem;
     margin: 2rem;
+    box-shadow: 0px 4px 8px yellowgreen;
 }
 
 
 /* Footer  section */
 
 .Heading-Foot {
-    font-family: sans-serif;
     color: whitesmoke;
     border-style: none;
     border-bottom: solid;
     border-width: 2.5px;
-    border-color: yellowgreen;
+    border-color: seagreen;
+    text-shadow: 2px 2px 4px seagreen;
     border-radius: 10px;
     margin-bottom: 1rem;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .col-Footer {
-    font-family: sans-serif;
     color: black;
     text-align: center;
     padding: 1rem;
@@ -160,15 +187,15 @@ video {
     gap: 4rem;
     display: flex;
     justify-content: center;
-    border-style: solid;
-    border-color: yellowgreen;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     border-radius: 10px;
-    background-color: seagreen;
+    background-color: rgb(255, 252, 252);
+    color: black;
     flex-direction: row;
     gap: 15rem;
     padding: 1rem;
     font-weight: bold;
+    box-shadow: 0px 4px 8px seagreen;
 }
 
 .Follow-us {
@@ -177,7 +204,6 @@ video {
     align-items: center;
     justify-content: center;
     gap: 0.5rem;
-    font-family: sans-serif;
     text-decoration: none;
     font-size: medium;
     font-weight: bolder;
@@ -191,11 +217,10 @@ video {
     justify-content: center;
     align-items: center;
     margin: 4rem;
-    border-color: yellowgreen;
     border-radius: 30px;
-    border-style: solid;
+    border-style: none;
     border-width: 2px;
-    font-family: sans-serif;
+    box-shadow: 0px 4px 8px yellowgreen;
 }
 
 .IMG-Founder {
@@ -207,8 +232,7 @@ video {
 }
 
 #About-Text {
-    font-family: sans-serif;
-    font-size: 1rem;
+    font-size: 0.9rem;
     padding: 1rem;
     text-align: center;
     align-items: center;
@@ -241,6 +265,8 @@ video {
     justify-content: center;
     gap: 30px;
     padding: 1rem;
+    box-shadow: 0px 4px 8px black;
+    margin: 4rem;
 }
 
 .Container-Tops {
@@ -252,6 +278,8 @@ video {
     justify-content: center;
     gap: 30px;
     padding: 1rem;
+    box-shadow: 0px 4px 8px black;
+    margin: 4rem;
 }
 
 .Container-Bottoms {
@@ -263,28 +291,52 @@ video {
     justify-content: center;
     gap: 30px;
     padding: 1rem;
+    box-shadow: 0px 4px 8px black;
+    margin: 4rem;
+}
+
+.Items-border {
+    border-style: none;
+    border-radius: 30px;
+    padding: 1rem;
+    box-shadow: 0px 4px 8px rgb(63, 63, 148);
 }
 
 
 /*Contact Us*/
 
 #Form {
-    Border-Style: solid;
     display: inline-block;
-    border-color: yellowgreen;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 4px 8px yellowgreen;
     border-radius: 30px;
     padding: 1rem;
     margin: 2rem;
 }
 
+#Contact-Info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    box-shadow: none;
+}
+
+#Heading-Info {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
 #Contact-Us {
     display: flex;
-    border-style: solid;
-    border-color: yellowgreen;
+    box-shadow: 0px 4px 8px yellowgreen;
     border-radius: 30px;
     align-items: center;
     align-content: center;
     justify-content: center;
     gap: 30px;
     padding: 1rem;
+    margin: 1.5rem;
 }
