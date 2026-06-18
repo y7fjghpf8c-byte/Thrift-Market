@@ -49,121 +49,101 @@
     </header>
     <section>
         <main>
-            <div>
+            <div id="schedule-layout">
+                <aside id="schedule-map-wrap">
+                    <details class="schedule-widget" id="schedule-map-widget" open>
+                        <summary class="schedule-widget-summary">More info</summary>
+                        <div class="schedule-widget-body">
+                            <p style="margin:0 0 0.5rem;">Select a day to see the location and opening hours.</p>
+                            <p style="margin:0; font-size:0.85rem; opacity:0.9;">Directions open in Google Maps.</p>
+                        </div>
+                    </details>
 
 
-                <div class="Schedule">
-                    <div>
-                        <img src="Images/penina.png" alt="Picture shows the founder of the organisation" width="120%" height="120">
+                    <h3 style="text-align:center; margin-bottom: 0.75rem; color: seagreen;">Find the market on the map</h3>
+                    <div id="schedule-map" aria-label="Schedule locations map" role="application"></div>
+                    <p id="schedule-map-sub" style="text-align:center; margin-top:0.75rem; opacity:0.85;">Click a day to view the location.</p>
+                    <div class="schedule-cta">
+                        <button type="button" id="schedule-copy-phone" class="schedule-btn"><i class="fa-solid fa-phone"></i> Copy phone</button>
+                        <span id="schedule-copy-status" class="schedule-status" aria-live="polite"></span>
                     </div>
-                    <div>
-                        <h4>Monday</h4>
+
+                </aside>
+
+                <div id="schedule-days" aria-label="Market schedule days">
+                    <div class="Schedule day-card" data-day="Monday" data-name="Penina Park" data-lat="-23.9050" data-lng="29.4410" tabindex="0" role="button" aria-pressed="false">
+                        <div>
+                            <img src="Images/penina.png" alt="Penina Park" width="120%" height="120">
+                        </div>
+                        <div>
+                            <h4>Monday</h4>
+                        </div>
+                        <div><i class="fa-regular fa-clock"></i>8:00AM-16:00PM</div>
+                        <div><i class="fa-solid fa-location-dot"></i>Penina Park</div>
+                        <div><i class="fa-solid fa-phone"></i> 0671504557</div>
                     </div>
 
-                    <!-- Clock Icon -->
-                    <div> <i class="fa-regular fa-clock"></i>8:00AM-16:00PM</div>
+                    <div class="Schedule day-card" data-day="Tuesday" data-name="Flora Park" data-lat="-23.9105" data-lng="29.4550" tabindex="0" role="button" aria-pressed="false">
+                        <div>
+                            <img src="Images/Flora park.png" alt="Flora Park" width="120%" height="120">
+                        </div>
+                        <div>
+                            <h4>Tuesday</h4>
+                        </div>
+                        <div><i class="fa-regular fa-clock"></i>8:00AM-16:00PM</div>
+                        <div><i class="fa-solid fa-location-dot"></i>Flora Park</div>
+                        <div><i class="fa-solid fa-phone"></i>0671504557</div>
+                    </div>
 
-                    <!-- Location Icon -->
-                    <div> <i class="fa-solid fa-location-dot"></i>Penina Park</div>
+                    <div class="Schedule day-card" data-day="Wednesday" data-name="Ivy Park" data-lat="-23.9190" data-lng="29.4720" tabindex="0" role="button" aria-pressed="false">
+                        <div>
+                            <img src="Images/Ivy park.png" alt="Ivy Park" width="120%" height="120">
+                        </div>
+                        <div>
+                            <h4>Wednesday</h4>
+                        </div>
+                        <div><i class="fa-regular fa-clock"></i>8:00AM-16:00PM</div>
+                        <div><i class="fa-solid fa-location-dot"></i>Ivy Park</div>
+                        <div><i class="fa-solid fa-phone"></i> 0671504557</div>
+                    </div>
 
-                    <!-- Phone Icon -->
-                    <div> <i class="fa-solid fa-phone"></i> 0671504557</div>
+                    <div class="Schedule day-card" data-day="Thursday" data-name="Cycad" data-lat="-23.9310" data-lng="29.4850" tabindex="0" role="button" aria-pressed="false">
+                        <div>
+                            <img src="Images/cycad.png" alt="Cycad" width="120%" height="120">
+                        </div>
+                        <div>
+                            <h4>Thursday</h4>
+                        </div>
+                        <div><i class="fa-regular fa-clock"></i>8:00AM-16:00PM</div>
+                        <div><i class="fa-solid fa-location-dot"></i>Cycad</div>
+                        <div><i class="fa-solid fa-phone"></i>0671504557</div>
+                    </div>
+
+                    <div class="Schedule day-card" data-day="Friday" data-name="Seshego" data-lat="-23.9480" data-lng="29.4560" tabindex="0" role="button" aria-pressed="false">
+                        <div>
+                            <img src="Images/seshego.png" alt="Seshego" width="120%" height="120">
+                        </div>
+                        <div>
+                            <h4>Friday</h4>
+                        </div>
+                        <div><i class="fa-regular fa-clock"></i>8:00AM-16:00PM</div>
+                        <div><i class="fa-solid fa-location-dot"></i>Seshego</div>
+                        <div><i class="fa-solid fa-phone"></i>0671504557</div>
+                    </div>
+
+                    <div class="Schedule day-card" data-day="Saturday" data-name="Limpopo Mall" data-lat="-23.9125" data-lng="29.4480" tabindex="0" role="button" aria-pressed="false">
+                        <div><img src="Images/Limpopo Mall.png" alt="Limpopo Mall" width="120%" height="120"></div>
+                        <div>
+                            <h4>Saturday</h4>
+                        </div>
+                        <div><i class="fa-regular fa-clock"></i>8:00AM-16:00PM</div>
+                        <div><i class="fa-solid fa-location-dot"></i>Limpopo Mall</div>
+                        <div><i class="fa-solid fa-phone"></i> 0671504557</div>
+                    </div>
                 </div>
-
-
-
-
-
-                <div class="Schedule">
-                    <div>
-                        <img src="Images/Flora park.png" alt="Picture shows the location of the event" width="120%" height="120">
-                    </div>
-                    <div>
-                        <h4>Tuesday</h4>
-                    </div>
-                    <!-- Clock Icon -->
-                    <div> <i class="fa-regular fa-clock"></i>8:00AM-16:00PM</div>
-
-                    <!-- Location Icon -->
-                    <div> <i class="fa-solid fa-location-dot"></i>Flora Park</div>
-
-                    <!-- Phone Icon -->
-                    <div> <i class="fa-solid fa-phone"></i>0671504557</div>
-                </div>
-
-
-
-
-                <div class="Schedule">
-                    <div>
-                        <img src="Images/Ivy park.png" alt="Picture shows the location of the market on wednesday" width="120%" height="120">
-                    </div>
-                    <div>
-                        <h4>Wednesday</h4>
-                    </div>
-                    <!-- Clock Icon -->
-                    <div> <i class="fa-regular fa-clock"></i>8:00AM-16:00PM</div>
-
-                    <!-- Location Icon -->
-                    <div> <i class="fa-solid fa-location-dot"></i>Ivy Park</div>
-                    <!-- Phone Icon -->
-                    <div> <i class="fa-solid fa-phone"></i> 0671504557</div>
-                </div>
-
-                <div class="Schedule">
-
-                    <div>
-                        <img src="Images/cycad.png" alt="Picture shows the location of the event" width="120%" height="120">
-                    </div>
-                    <div>
-                        <h4>Thursday</h4>
-                    </div>
-                    <!-- Clock Icon -->
-                    <div> <i class="fa-regular fa-clock"></i>8:00AM-16:00PM</div>
-
-                    <!-- Location Icon -->
-                    <div> <i class="fa-solid fa-location-dot"></i>Cycad</div>
-
-                    <!-- Phone Icon -->
-                    <div> <i class="fa-solid fa-phone"></i>0671504557</div>
-                </div>
-
-
-
-                <div class="Schedule">
-                    <div>
-                        <img src="Images/seshego.png" alt="Picture shows the location of the market in seshego" width="120%" height="120">
-                    </div>
-                    <div>
-                        <h4>Friday</h4>
-                    </div>
-                    <!-- Clock Icon -->
-                    <div> <i class="fa-regular fa-clock"></i>8:00AM-16:00PM</div>
-
-                    <!-- Location Icon -->
-                    <div> <i class="fa-solid fa-location-dot"></i>Seshego</div>
-
-                    <!-- Phone Icon -->
-                    <div> <i class="fa-solid fa-phone"></i>0671504557</div>
-                </div>
-
-                <div class="Schedule">
-                    <div><img src="Images/Limpopo Mall.png" width="120%" height="120"></div>
-                    <div>
-                        <h4>Saterday</h4>
-                    </div>
-
-                    <!-- Clock Icon-->
-                    <div> <i class="fa-regular fa-clock"></i>8:00AM-16:00PM</div>
-
-                    <!-- Location Icon -->
-                    <div> <i class="fa-solid fa-location-dot"></i>Limpopo Mall</div>
-
-                    <!-- Phone Icon -->
-                    <div> <i class="fa-solid fa-phone"></i> 0671504557</div>
-                </div>
-
+            </div>
         </main>
+
 
         <footer>
             <div class="Footer">
@@ -206,7 +186,115 @@
 
         </footer>
 
+        <!-- Leaflet map (CDN) -->
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+        <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 
+        <script>
+            (function() {
+                const mapEl = document.getElementById('schedule-map');
+                const cards = Array.from(document.querySelectorAll('.day-card'));
+                if (!mapEl || !cards.length || typeof L === 'undefined') return;
+
+                // Build map
+                const defaultCard = cards[0];
+                const defaultLat = Number(defaultCard.dataset.lat);
+                const defaultLng = Number(defaultCard.dataset.lng);
+
+                const map = L.map('schedule-map').setView([defaultLat, defaultLng], 11);
+
+                L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                    maxZoom: 19,
+                    attribution: '&copy; OpenStreetMap contributors'
+                }).addTo(map);
+
+                const markerByDay = new Map();
+
+                const buildDirectionsLink = (lat, lng) => {
+                    const url = `https://www.google.com/maps/dir/?api=1&destination=${lat},${lng}`;
+                    return url;
+                };
+
+                cards.forEach((card) => {
+                    const day = card.dataset.day;
+                    const name = card.dataset.name;
+                    const lat = Number(card.dataset.lat);
+                    const lng = Number(card.dataset.lng);
+
+                    const marker = L.marker([lat, lng]).addTo(map);
+                    marker.bindPopup(`
+                        <div style="font-family: cursive;">
+                          <strong>${day}</strong><br />
+                          ${name}<br />
+                          <a target="_blank" rel="noopener noreferrer" href="${buildDirectionsLink(lat, lng)}">Get directions</a>
+                        </div>
+                    `);
+
+                    markerByDay.set(day, {
+                        marker,
+                        card
+                    });
+
+                    const selectCard = () => {
+                        cards.forEach((c) => {
+                            c.classList.remove('is-active');
+                            c.setAttribute('aria-pressed', 'false');
+                        });
+                        card.classList.add('is-active');
+                        card.setAttribute('aria-pressed', 'true');
+
+                        marker.openPopup();
+                        map.setView([lat, lng], 12, {
+                            animate: true
+                        });
+                    };
+
+                    card.addEventListener('click', selectCard);
+                    card.addEventListener('keydown', (e) => {
+                        if (e.key === 'Enter' || e.key === ' ') {
+                            e.preventDefault();
+                            selectCard();
+                        }
+                    });
+                });
+
+                // Auto-select first day
+                const firstDay = defaultCard.dataset.day;
+
+                // Extra UX: copy phone
+                const copyBtn = document.getElementById('schedule-copy-phone');
+                const statusEl = document.getElementById('schedule-copy-status');
+                if (copyBtn && statusEl) {
+                    safeSet();
+                }
+
+                function safeSet() {
+                    // Extract phone from first day card
+                    const firstCardPhoneEl = cards[0] && cards[0].querySelector('.fa-phone');
+                    const phone = (firstCardPhoneEl && firstCardPhoneEl.parentElement && firstCardPhoneEl.parentElement.textContent ? firstCardPhoneEl.parentElement.textContent : '0671504557').trim();
+                    copyBtn.addEventListener('click', async() => {
+                        try {
+                            await navigator.clipboard.writeText(phone);
+                            statusEl.textContent = 'Phone copied!';
+                            statusEl.style.color = 'seagreen';
+                        } catch (err) {
+                            statusEl.textContent = 'Copy not supported in this browser.';
+                            statusEl.style.color = '#b25a00';
+                        }
+                        setTimeout(() => {
+                            statusEl.textContent = '';
+                        }, 2500);
+                    });
+                }
+
+                const first = markerByDay.get(firstDay);
+                if (first) first.marker.openPopup();
+                defaultCard.classList.add('is-active');
+                defaultCard.setAttribute('aria-pressed', 'true');
+            })();
+        </script>
+
+        <script src="Script.js"></script>
 </body>
 
 </html>

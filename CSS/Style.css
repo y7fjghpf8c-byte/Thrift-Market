@@ -157,12 +157,103 @@ video {
 
 /* Schedule main section */
 
+#schedule-layout {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 2.25rem;
+    margin: 4rem 1rem;
+}
+
+#schedule-map-wrap {
+    width: min(520px, 100%);
+}
+
+#schedule-map {
+    width: 100%;
+    height: 420px;
+    border-radius: 14px;
+    box-shadow: 0px 4px 8px seagreen;
+    overflow: hidden;
+}
+
+#schedule-days {
+    width: min(520px, 100%);
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.schedule-widget {
+    background: rgb(255, 252, 252);
+    border-radius: 12px;
+    box-shadow: 0px 4px 8px seagreen;
+    padding: 0.75rem 1rem;
+    margin-bottom: 0.75rem;
+}
+
+.schedule-widget-summary {
+    cursor: pointer;
+    font-weight: bold;
+    color: seagreen;
+}
+
+.schedule-widget-body {
+    margin-top: 0.5rem;
+}
+
+.schedule-cta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+    margin-top: 0.75rem;
+}
+
+.schedule-btn {
+    border: none;
+    border-radius: 12px;
+    padding: 0.55rem 0.85rem;
+    background: YELLOWGREEN;
+    color: whitesmoke;
+    font-weight: bold;
+    box-shadow: 0px 4px 8px seagreen;
+    cursor: pointer;
+    transition: transform 0.15s ease, background-color 0.15s ease;
+}
+
+.schedule-btn:hover {
+    transform: translateY(-1px);
+    background: seagreen;
+}
+
+.schedule-status {
+    min-height: 1.2rem;
+    font-weight: bold;
+}
+
+.day-card {
+    cursor: pointer;
+    outline: none;
+}
+
+.day-card.is-active {
+    box-shadow: 0px 10px 22px seagreen;
+    transform: translateY(-3px);
+    border: 2px solid rgba(154, 205, 50, 0.55);
+}
+
+.day-card:focus-visible {
+    outline: 3px solid rgba(154, 205, 50, 0.7);
+    outline-offset: 3px;
+}
+
 .Schedule {
     display: inline-block;
     text-align: center;
     border-radius: 10px;
     padding: 2rem;
-    margin: 2rem;
+    margin: 0;
     box-shadow: 0px 4px 8px yellowgreen;
 }
 
@@ -170,6 +261,19 @@ video {
     border-radius: 10px;
     box-shadow: 0px 4px 8px yellowgreen;
     padding: 0.5rem;
+}
+
+@media (max-width: 900px) {
+    #schedule-layout {
+        flex-direction: column;
+        align-items: center;
+    }
+    #schedule-map {
+        height: 340px;
+    }
+    #schedule-days {
+        width: 100%;
+    }
 }
 
 
@@ -366,6 +470,60 @@ video {
     padding: 0.5rem;
 }
 
+
+/* Contact stepper / status */
+
+.Contact-Step {
+    width: 100%;
+    display: block;
+}
+
+.Contact-Status {
+    margin-top: 0.5rem;
+    font-weight: bold;
+}
+
+.Contact-Meta {
+    display: block;
+    margin-top: 0.25rem;
+    opacity: 0.9;
+}
+
+
+/* Disabled state */
+
+.Input:disabled {
+    background-color: #f2f2f2;
+    color: #7a7a7a;
+    cursor: not-allowed;
+}
+
+#Details-Submit {
+    border-radius: 10px;
+    border-style: none;
+    padding: 0.5rem;
+    width: 30%;
+    background-color: YELLOWGREEN;
+    color: whitesmoke;
+    font-weight: bold;
+    box-shadow: 0px 4px 8px seagreen;
+    transition: transform 0.15s ease, box-shadow 0.15s ease, background-color 0.15s ease;
+}
+
+#Details-Submit:hover {
+    background-color: seagreen;
+    transform: translateY(-1px);
+    box-shadow: 0px 8px 18px seagreen;
+}
+
+#Details-Submit:disabled,
+#Comment-form button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+    transform: none;
+    box-shadow: none;
+}
+
 #Comment-form {
     border-style: none;
     border-radius: 30px;
@@ -444,4 +602,188 @@ video {
 
 .Follow-us i {
     transition: transform 0.15s ease, color 0.15s ease;
+}
+
+
+/* ==============================
+   UX Enhancements: Lightbox +
+   Product Search + Animations
+   ============================== */
+
+
+/* Lightbox */
+
+#lightbox-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.72);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+    padding: 1rem;
+}
+
+#lightbox-overlay.open {
+    display: flex;
+    animation: lbFade 160ms ease-out;
+}
+
+@keyframes lbFade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#lightbox-modal {
+    position: relative;
+    width: min(920px, 100%);
+    background: white;
+    border-radius: 14px;
+    box-shadow: 0 18px 60px rgba(0, 0, 0, 0.35);
+    padding: 0.75rem;
+    transform: translateY(6px) scale(0.99);
+    animation: lbPop 160ms ease-out;
+}
+
+@keyframes lbPop {
+    from {
+        transform: translateY(12px) scale(0.98);
+    }
+    to {
+        transform: translateY(6px) scale(0.99);
+    }
+}
+
+#lightbox-close {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.6rem;
+    width: 38px;
+    height: 38px;
+    border-radius: 999px;
+    border: none;
+    background: #111;
+    color: #fff;
+    font-size: 26px;
+    line-height: 38px;
+    cursor: pointer;
+}
+
+#lightbox-img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+    background: #f7f7f7;
+}
+
+#lightbox-caption {
+    margin-top: 0.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+/* Product search controls */
+
+#product-controls {
+    margin: 1.5rem auto;
+    padding: 1rem;
+    border-radius: 16px;
+    box-shadow: 0px 4px 8px seagreen;
+    background: rgb(255, 252, 252);
+    max-width: 980px;
+}
+
+.pc-row {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    margin: 0.5rem 0;
+}
+
+.pc-row.pc-actions {
+    justify-content: space-between;
+}
+
+.pc-label {
+    font-weight: bold;
+    color: seagreen;
+    min-width: 80px;
+    text-align: right;
+}
+
+.pc-input,
+.pc-select {
+    padding: 0.6rem;
+    border-radius: 12px;
+    border: none;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.05);
+    background: whitesmoke;
+    min-width: 260px;
+}
+
+.pc-btn {
+    border-radius: 12px;
+    border: none;
+    padding: 0.6rem 1rem;
+    background: YELLOWGREEN;
+    color: whitesmoke;
+    font-weight: bold;
+    box-shadow: 0px 4px 8px seagreen;
+    cursor: pointer;
+}
+
+.pc-btn:hover {
+    background: seagreen;
+    transform: translateY(-1px);
+}
+
+.pc-count {
+    font-weight: bold;
+    color: #111;
+    opacity: 0.85;
+    padding-right: 0.25rem;
+}
+
+
+/* Filtering transitions for cards */
+
+.Items-border.hide {
+    opacity: 0;
+    transform: translateY(10px);
+    pointer-events: none;
+    height: 0;
+    overflow: hidden;
+}
+
+.Items-border.show {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+    height: auto;
+}
+
+.Items-border {
+    transition: opacity 160ms ease, transform 160ms ease;
+}
+
+
+/* Scroll reveal */
+
+.reveal {
+    opacity: 0;
+    transform: translateY(14px);
+    transition: opacity 400ms ease, transform 400ms ease;
+}
+
+.reveal.in-view {
+    opacity: 1;
+    transform: translateY(0);
 }

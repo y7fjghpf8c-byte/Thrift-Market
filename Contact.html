@@ -68,60 +68,56 @@
 
         <div id="Contact-Info">
 
-            <form id="Form">
-                <div>
+            <div class="Contact-Step" id="Step-1">
 
+                <form id="Form" novalidate>
+                    <div>
+                        <input id="Name" class="Input" placeholder="Name" autocomplete="given-name" required type="text">
+                    </div>
 
-                    <Input class="Input" placeholder="Name">
+                    <br>
+                    <div>
+                        <input id="Surname" class="Input" placeholder="Surname" autocomplete="family-name" required type="text">
 
-                </div>
-                <br>
-                <div>
+                    </div>
+                    <br>
+                    <div>
+                        <input id="Email" class="Input" placeholder="Email" type="email" autocomplete="email" required>
 
+                    </div>
+                    <br>
+                    <div>
+                        <input id="Phone" class="Input" placeholder="Cell Number" type="tel" autocomplete="tel" required>
 
-                    <Input class="Input" placeholder="Surname">
+                    </div>
+                    <br>
+                    <div class="Contact-Status" id="Details-Status" aria-live="polite"></div>
 
-                </div>
-                <br>
+                </form>
+            </div>
 
-                <div>
+            <div class="Contact-Step" id="Step-2">
 
+                <form id="Comment-form" novalidate>
+                    <div>
+                        <textarea id="Comment" class="Input" placeholder="Comment" disabled maxlength="500"></textarea>
 
-                    <Input class="Input" placeholder="Email">
-
-                </div>
-                <br>
-                <div>
-
-
-                    <Input class="Input" placeholder="Cell Number">
-
-                </div>
-                <br>
-
-
-
-            </form>
-            <form id="Comment-form">
-                <div>
-
-
-                    <textarea class="Input" placeholder="Comment"></textarea>
-
-                </div>
-                <br>
-                <div>
-                    <button>Send Message</button>
-                </div>
-            </form>
-
-
+                        <div class="Contact-Status" id="Comment-Status" aria-live="polite"></div>
+                        <small class="Contact-Meta" id="Comment-Count">0 / 500</small>
+                    </div>
+                    <br>
+                    <div>
+                        <button id="Submit" type="submit">Send Message</button>
+                    </div>
+                </form>
+            </div>
 
 
 
 
 
     </main>
+
     <footer>
         <div class="Footer">
             <div class="col-Footer">
@@ -159,6 +155,8 @@
         </div>
     </footer>
 
+
+    <script src="Script.js"></script>
 </body>
 
 </html>
