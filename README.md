@@ -40,13 +40,20 @@ Responsive design:
 
 * Used relative units for sizing
 * Made use of responsive images sizes and the picture element
+* Tested across different devices using dev tools
+*  Breakpoints were identified amd  media queries, switch-column to single-column on smaller screens wa used
 
 ## Part 3 Enhancing Functionality and SEO
 Functionality:
 * added interactive elements such as accordations
 * Implemented an interactive Map
 * Made use of CSS and JS 
-* A form with proper HTML elements and Validation
+* A form with proper HTML elements and Validation, and AJAX submission
+* enquiry and contact form are intergraded on the same page
+
+SEO:
+* On-page: i enured that title tags, meta descriptions, header tags , image alt text , clear URLs  and internal linking aswell as mobile-friendliness was included
+* Off-page: backlinks, social media promotion and local SEO were included
 ## GUI
 ![Image alt](https://raw.githubusercontent.com/y7fjghpf8c-byte/Thrift-Market/ca05e06ff947d1c0dc565601ff300a5d5bca895f/Images/Homepage.png)
 
@@ -72,11 +79,17 @@ Advertising Solutions,2025. How Much Does a Website Design Cost in South Africa?
 
 Business PlannerIq,2024. Mission and Vision Statements for Food Businesses: 19+Examples[Online]Available at:[<Mission and Vision Statements for Food Business: 19+ Examples - Business Planner®>](https://businessplannerhq.com/mission-and-vision-statements-for-food-business/)[Accessed 17 March 2026].
 
+Bro Code, 2023.How to accept Javascript USER INPUT in 5 mintues[Video]Available at:[<How to accept JavaScript USER INPUT in 5 minutes>](https://www.youtube.com/watch?v=JeXqaKeJSRI&list=PLZPZq0r_RZOO1zkgO4bIdfuLpizCeHYKv&index=4)[Accessed 15 June 2026]
+
 Codex Community,2026.How to Wiframe in Figma 2026[Online Video] Available at:[< How to Wireframe in Figma in 2026>](https://www.youtube.com/watch?v=qWIdforZ9x0)[Accessed 19 March 2026].
 
 DesignSpo, 2024.The ULTIMATE Guide To Typography For Beginners[Online Video]Available at:[< (757) The ULTIMATE Guide To Typography For Beginners - YouTube>](https://www.youtube.com/watch?v=AXpxZMRM1EY)[Accessed 20 March 2026].
 
+freeCodeCamp,2026.freeCodeCamp.org.[Online]Available at:[<freeCodeCamp.org>](https://www.freecodecamp.org)[Accessed 1 May 2026]
+
 Fireship,2021. I built the same app 10 times//Which JS Framework is best?[Online video][Available at<I built the same app 10 times // Which JS Framework is best?>](https://www.youtube.com/watch?v=cuHDQhDhvPE)[Accessed 19 March 2026]
+
+Florin Pop, 2019. JavaScript Client-side Form Validation[Online Video] Available at:[<JavaScript Client-side Form Validation>](https://www.youtube.com/watch?v=rsd4FNGTRBw)[Accessed 15 June 2026]
 
 Flux Academy,2022.Complete Layout Guide [Online Video] Available at:[< (757) Complete Layout Guide - YouTube>](https://www.youtube.com/watch?v=AXpxZMRM1EY)[Accessed 25 March 2026].
 
@@ -89,6 +102,7 @@ Tutorials with alex,2026.How to create Sitemap in Figma (2026 Full Guide)[Online
 
 Webflow team, 2025.19 essential web designer skills for 2025.webflow, [blog]12 May.Available at:[< 19 essential web designer skills for 2025>](https://webflow.com/blog/web-designer-skills?msockid=017a4c6ced4c64ca233c59edec6e6576)[Accessed 20 March 2026].
 
+W3Schools,2026.W3Schools Online Web Tutorials.[Online] Available at:[<W3Schools Online Web Tutorials>](https://www.w3schools.com)[Accessed 1 May]
 
 
 
