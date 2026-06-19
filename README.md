@@ -30,7 +30,22 @@ Part 2:Focuses on completing the full website development and implentation weeks
 
 ## GUI
 ![Image alt](https://raw.githubusercontent.com/y7fjghpf8c-byte/Thrift-Market/ca05e06ff947d1c0dc565601ff300a5d5bca895f/Images/Homepage.png)
+Homepage
 
+![Image alt](https://raw.githubusercontent.com/y7fjghpf8c-byte/Thrift-Market/ca05e06ff947d1c0dc565601ff300a5d5bca895f/Images/About-Us.png)
+About-us
+
+![Image alt](https://raw.githubusercontent.com/y7fjghpf8c-byte/Thrift-Market/ca05e06ff947d1c0dc565601ff300a5d5bca895f/Images/Items.png)
+Items
+
+![Image alt](https://raw.githubusercontent.com/y7fjghpf8c-byte/Thrift-Market/ca05e06ff947d1c0dc565601ff300a5d5bca895f/Images/Contact-us.png)
+Contact-us
+
+![Image alt](https://raw.githubusercontent.com/y7fjghpf8c-byte/Thrift-Market/ca05e06ff947d1c0dc565601ff300a5d5bca895f/Images/Schedule.png)
+Schedule
+
+![Image alt](https://raw.githubusercontent.com/y7fjghpf8c-byte/Thrift-Market/ca05e06ff947d1c0dc565601ff300a5d5bca895f/Images/Footer.png)
+footer
 ## Reference List
 
 Advertising Solutions,2025. How Much Does a Website Design Cost in South Africa?[+Calculator][2026 Guide].[Online] Available at:[< Web Design Costs in South Africa in 2026 (Packages from R2950)>](https://advertisingsolutions.co.za/website-design-cost-south-africa/)[Accessed 27 March 2026].
