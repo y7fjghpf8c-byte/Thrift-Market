@@ -266,10 +266,18 @@
             if (!inCard && !marked) return;
 
             e.preventDefault();
+
+            const altText = img.getAttribute("alt") || "";
+            let captionText = "";
+            if (inCard) {
+                const container = img.closest(".Items-border, .Items, .Schedule");
+                captionText = container ? (container.innerText || "").trim().slice(0, 60) : "";
+            }
+
             open({
                 src,
-                alt: img.getAttribute("alt") || img.nextElementSibling ? .textContent ? .trim(),
-                caption: img.closest(".Items-border, .Items, .Schedule") ? .innerText ? .trim().slice(0, 60) || "",
+                alt: altText,
+                caption: captionText,
             });
         });
     }

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Thirft Market</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVc[...]"
     />
     <link rel="stylesheet" href="CSS/Style.css">
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
@@ -22,7 +22,7 @@
             </div>
             <ul class="Nav-links">
                 <li class="Nav">
-                    <a href="Index.html">Home</a>
+                    <a href="index.html">Home</a>
                 </li>
 
                 <li class="Nav">
@@ -85,7 +85,7 @@
 
                     <div class="Schedule day-card" data-day="Tuesday" data-name="Flora Park" data-lat="-23.9105" data-lng="29.4550" tabindex="0" role="button" aria-pressed="false">
                         <div>
-                            <img src="Images/Flora park.png" alt="Flora Park" width="120%" height="120">
+                            <img src="Images/Flora%20park.png" alt="Flora Park" width="120%" height="120">
                         </div>
                         <div>
                             <h4>Tuesday</h4>
@@ -97,7 +97,7 @@
 
                     <div class="Schedule day-card" data-day="Wednesday" data-name="Ivy Park" data-lat="-23.9190" data-lng="29.4720" tabindex="0" role="button" aria-pressed="false">
                         <div>
-                            <img src="Images/Ivy park.png" alt="Ivy Park" width="120%" height="120">
+                            <img src="Images/Ivy%20park.png" alt="Ivy Park" width="120%" height="120">
                         </div>
                         <div>
                             <h4>Wednesday</h4>
@@ -132,7 +132,7 @@
                     </div>
 
                     <div class="Schedule day-card" data-day="Saturday" data-name="Limpopo Mall" data-lat="-23.9125" data-lng="29.4480" tabindex="0" role="button" aria-pressed="false">
-                        <div><img src="Images/Limpopo Mall.png" alt="Limpopo Mall" width="120%" height="120"></div>
+                        <div><img src="Images/Limpopo%20Mall.png" alt="Limpopo Mall" width="120%" height="120"></div>
                         <div>
                             <h4>Saturday</h4>
                         </div>
@@ -152,7 +152,7 @@
                     <ul class="Company">
                         <li><a href="About.html">about Us</a></li>
                         <li><a href="Services.html">Our services</a></li>
-                        <li><strong>Email:</strong>Thrift.Market@gmail.com></li>
+                        <li><strong>Email:</strong>Thrift.Market@gmail.com</li>
                     </ul>
 
                 </div>
@@ -271,7 +271,12 @@
                 function safeSet() {
                     // Extract phone from first day card
                     const firstCardPhoneEl = cards[0] && cards[0].querySelector('.fa-phone');
-                    const phone = (firstCardPhoneEl && firstCardPhoneEl.parentElement && firstCardPhoneEl.parentElement.textContent ? firstCardPhoneEl.parentElement.textContent : '0671504557').trim();
+                    let phoneRaw = '0671504557';
+                    if (firstCardPhoneEl && firstCardPhoneEl.parentElement && firstCardPhoneEl.parentElement.textContent) {
+                        phoneRaw = firstCardPhoneEl.parentElement.textContent.trim();
+                    }
+                    const phone = phoneRaw.replace(/[^+\d]/g, '').trim();
+
                     copyBtn.addEventListener('click', async() => {
                         try {
                             await navigator.clipboard.writeText(phone);
@@ -294,7 +299,7 @@
             })();
         </script>
 
-        <script src="Script.js"></script>
+        <script src="js/Script.js"></script>
 </body>
 
 </html>
