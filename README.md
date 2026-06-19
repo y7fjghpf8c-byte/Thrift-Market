@@ -7,101 +7,79 @@
 
 ## Project Organisation
 
-The Thrift Market was created to help counteract rising clothing prices. Its main objective is to provide an affordable, quality platform for second-hand clothing and accessories for price-conscious customers.[...]
+The Thrift Market provides an affordable, quality platform for second‑hand clothing and accessories to help counter rising clothing prices.
 
 ## Website Goals and Objectives
-The primary goal of this website is to develop a user-friendly and aesthetically pleasing platform that enables customers to easily search for clothing. This platform attempts to merge the experience of browsing second-hand items with clear navigation and responsive design.[...]
+
+Create a user-friendly, responsive platform that makes searching and browsing second‑hand clothing simple and accessible.
 
 ## Sitemap
-![Image alt](https://github.com/y7fjghpf8c-byte/Thrift-Market/blob/1f7f76d7cca36583c522d68f93a98b0e28ff093b/Images/sitemap.png)
+
+![Sitemap](https://github.com/y7fjghpf8c-byte/Thrift-Market/blob/1f7f76d7cca36583c522d68f93a98b0e28ff093b/Images/sitemap.png)
 
 ## Wireframes
-![Image alt](https://github.com/y7fjghpf8c-byte/Thrift-Market/blob/1f7f76d7cca36583c522d68f93a98b0e28ff093b/Images/Wireframes%20(1).jpg)
 
-## Key Features and Function
+![Wireframes](https://github.com/y7fjghpf8c-byte/Thrift-Market/blob/1f7f76d7cca36583c522d68f93a98b0e28ff093b/Images/Wireframes%20(1).jpg)
 
-The website will include important pages such as the Home Page (with navigational links and promotional elements), the About Us page (which explains the organization's history), and the Services page.[...]
+## Key Features
+
+- Home page with navigation and promotional elements
+- About Us page explaining the organisation
+- Services and Items pages with search and filtering
+- Contact/enquiry forms with validation and AJAX submission
 
 ## Timeline and Milestones
 
-The project will be completed in two phases:
+Phase 1 — Planning & design (Weeks 1–3) and initial HTML (Weeks 4–6).
 
-Part 1: Planning and research (Weeks 1–2), system design (Week 3), and initial HTML development (Weeks 4–6).
+Phase 2 — Full website development and implementation (Weeks 1–6).
 
-Part 2: Completing full website development and implementation (Weeks 1–6).
+## CSS and Responsive Design
 
-## Part 2 — CSS and Responsive Design
+- External stylesheet applied across pages
+- Layout built with CSS Flexbox
+- Responsive design using relative units, image sources/picture element, and media queries
 
-CSS styling:
-* External stylesheet linked to all HTML pages, using consistent naming.
-* Styles for fonts, sizes, colour scheme, paddings, and margins were established.
-* Visual styles implemented (color, background-color, border, box-shadow).
-* A layout structure built using CSS Flexbox.
-* Typography styling and typographic scales applied.
+## Functionality
 
-Responsive design:
+- Interactive elements (accordions, map)
+- Forms with validation and AJAX
+- Basic client-side interactivity via CSS and JavaScript
 
-* Used relative units for sizing.
-* Used responsive image sizes and the picture element.
-* Tested across different devices using dev tools.
-* Breakpoints were identified and media queries implemented; switched columns to single-column on smaller screens.
+## SEO (Overview)
 
-## Part 3 — Enhancing Functionality and SEO
-Functionality:
-* Added interactive elements such as accordions.
-* Implemented an interactive map.
-* Used CSS and JavaScript for interactivity.
-* Added a form with proper HTML elements, validation, and AJAX submission.
-* Enquiry and contact forms integrated on the same page.
-
-SEO:
-* On-page: I ensured that title tags, meta descriptions, header tags, image alt text, clear URLs, and internal linking as well as mobile-friendliness were included.
-* Off-page: Backlinks, social media promotion, and local SEO were considered.
+- On-page: title tags, meta descriptions, header tags, image alt text, clear URLs, mobile-friendly layout
+- Off-page: backlinks, social media promotion, local SEO
 
 ## GUI
-![Image alt](https://raw.githubusercontent.com/y7fjghpf8c-byte/Thrift-Market/ca05e06ff947d1c0dc565601ff300a5d5bca895f/Images/Homepage.png)
 
+![Homepage](https://raw.githubusercontent.com/y7fjghpf8c-byte/Thrift-Market/ca05e06ff947d1c0dc565601ff300a5d5bca895f/Images/Homepage.png)
 
-![Image alt](https://raw.githubusercontent.com/y7fjghpf8c-byte/Thrift-Market/ca05e06ff947d1c0dc565601ff300a5d5bca895f/Images/About-Us.png)
+![About](https://raw.githubusercontent.com/y7fjghpf8c-byte/Thrift-Market/ca05e06ff947d1c0dc565601ff300a5d5bca895f/Images/About-Us.png)
 
+![Items](https://raw.githubusercontent.com/y7fjghpf8c-byte/Thrift-Market/ca05e06ff947d1c0dc565601ff300a5d5bca895f/Images/Items.png)
 
-![Image alt](https://raw.githubusercontent.com/y7fjghpf8c-byte/Thrift-Market/ca05e06ff947d1c0dc565601ff300a5d5bca895f/Images/Items.png)
+![Contact](https://raw.githubusercontent.com/y7fjghpf8c-byte/Thrift-Market/ca05e06ff947d1c0dc565601ff300a5d5bca895f/Images/Contact-us.png)
 
+![Schedule](https://raw.githubusercontent.com/y7fjghpf8c-byte/Thrift-Market/ca05e06ff947d1c0dc565601ff300a5d5bca895f/Images/Schedule.png)
 
-![Image alt](https://raw.githubusercontent.com/y7fjghpf8c-byte/Thrift-Market/ca05e06ff947d1c0dc565601ff300a5d5bca895f/Images/Contact-us.png)
-
-
-![Image alt](https://raw.githubusercontent.com/y7fjghpf8c-byte/Thrift-Market/ca05e06ff947d1c0dc565601ff300a5d5bca895f/Images/Schedule.png)
-
-
-![Image alt](https://raw.githubusercontent.com/y7fjghpf8c-byte/Thrift-Market/ca05e06ff947d1c0dc565601ff300a5d5bca895f/Images/Footer.png)
+![Footer](https://raw.githubusercontent.com/y7fjghpf8c-byte/Thrift-Market/ca05e06ff947d1c0dc565601ff300a5d5bca895f/Images/Footer.png)
 
 ## Reference List
 
-Advertising Solutions, 2025. How Much Does a Website Design Cost in South Africa? [+Calculator] [2026 Guide]. [Online] Available at: [< Web Design Costs in South Africa in 2026 (Packages from R2950)>]([...]
+1. Advertising Solutions (2025). How Much Does a Website Design Cost in South Africa? [+Calculator] [2026 Guide]. [Online]
+2. Business PlannerIq (2024). Mission and Vision Statements for Food Businesses: 19+ Examples. [Online]
+3. Bro Code (2023). How to accept JavaScript USER INPUT in 5 minutes. [Video]
+4. Codex Community (2026). How to Wireframe in Figma. [Online Video]
+5. DesignSpo (2024). The ULTIMATE Guide To Typography For Beginners. [Online Video]
+6. freeCodeCamp (2026). freeCodeCamp.org. [Online]
+7. Fireship (2021). I built the same app 10 times // Which JS Framework is best? [Video]
+8. Florin Pop (2019). JavaScript Client-side Form Validation. [Video]
+9. Flux Academy (2022). Complete Layout Guide. [Video]
+10. Startup Financial Projection (2025). Core KPIs for Thrift Store Business Success. [Online]
+11. SiteGround (2024). Website Planning in 9 Steps + Checklist. [Online]
+12. Tutorials with Alex (2026). How to create Sitemap in Figma. [Video]
+13. Webflow Team (2025). 19 essential web designer skills for 2025. [Blog]
+14. W3Schools (2026). W3Schools Online Web Tutorials. [Online]
 
-Business PlannerIq, 2024. Mission and Vision Statements for Food Businesses: 19+ Examples [Online] Available at: [<Mission and Vision Statements for Food Business: 19+ Examples - Business Planner®>](h[...]
-
-Bro Code, 2023. How to accept JavaScript USER INPUT in 5 minutes [Video] Available at: [<How to accept JavaScript USER INPUT in 5 minutes>](https://www.youtube.com/watch?v=JeXqaKeJSRI&list=PLZPZq0r_RZ[...]
-
-Codex Community, 2026. How to Wireframe in Figma 2026 [Online Video] Available at: [< How to Wireframe in Figma in 2026>](https://www.youtube.com/watch?v=qWIdforZ9x0) [Accessed 19 March 2026].
-
-DesignSpo, 2024. The ULTIMATE Guide To Typography For Beginners [Online Video] Available at: [< (757) The ULTIMATE Guide To Typography For Beginners - YouTube>](https://www.youtube.com/watch?v=AXpxZMR[...]
-
-freeCodeCamp, 2026. freeCodeCamp.org. [Online] Available at: [<freeCodeCamp.org>](https://www.freecodecamp.org) [Accessed 1 May 2026]
-
-Fireship, 2021. I built the same app 10 times // Which JS Framework is best? [Online video] Available at: [I built the same app 10 times // Which JS Framework is best?](https://www.youtube.com/watch?v=[...]
-
-Florin Pop, 2019. JavaScript Client-side Form Validation [Online Video] Available at: [<JavaScript Client-side Form Validation>](https://www.youtube.com/watch?v=rsd4FNGTRBw) [Accessed 15 June 2026]
-
-Flux Academy, 2022. Complete Layout Guide [Online Video] Available at: [< (757) Complete Layout Guide - YouTube>](https://www.youtube.com/watch?v=AXpxZMRM1EY) [Accessed 25 March 2026].
-
-Startup Financial Projection, 2025. What Are the Core 5 KPIs for Thrift Store Business Success? [Online] Available at: [< What are core 5 KPIs of Thrift Store Business?>](https://startupfinancialproj[...]
-
-Site Ground, 2024. Website Planning in 9 Steps + Checklist [Online] Available at: [<Website Planning in 9 Steps + Checklist - SiteGround Academy>](https://www.siteground.com/academy/website-planning/[...]
-
-Tutorials with Alex, 2026. How to create Sitemap in Figma (2026 Full Guide) [Online Video] Available at: [<How to Create a Sitemap in Figma (2026 Full Guide)>](https://www.youtube.com/watch?v=-gIgIia[...]
-
-Webflow team, 2025. 19 essential web designer skills for 2025. Webflow [blog] 12 May. Available at: [< 19 essential web designer skills for 2025>](https://webflow.com/blog/web-designer-skills?msockid[...]
-
-W3Schools, 2026. W3Schools Online Web Tutorials. [Online] Available at: [<W3Schools Online Web Tutorials>](https://www.w3schools.com) [Accessed 1 May]
+(Links preserved in the repository where full URLs were provided.)
