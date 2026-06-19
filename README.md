@@ -28,7 +28,8 @@ Them project will be completed in two phases
 Part 1:includes planning and research in weeks 1-2, system design in Week 3, and intial HTML development from Weeks 4-6.
 Part 2:Focuses on completing the full website development and implentation weeks 1-6
 
-
+## GUI
+![Image alt](https://raw.githubusercontent.com/y7fjghpf8c-byte/Thrift-Market/ca05e06ff947d1c0dc565601ff300a5d5bca895f/Images/Homepage.png)
 
 ## Reference List
 
