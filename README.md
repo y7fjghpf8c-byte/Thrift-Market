@@ -1,4 +1,4 @@
-# Thrift-Market
+## Thrift-Market
 
 ## Name and Surname:Tshupetso Kgahlbaje Rampedi
 
@@ -7,10 +7,10 @@
 
 ## Project Organisation:
  
- The Thrift Market is one that has been created in a bid to counteract the increased prices of clothing items. its main objective is to provide an affordable and quality platform for second-hand clothes.This idea wa brought into existence by Mr.Rampedi with the objective of encouraging sustainable fashion by making use of recycled and reused clothes.
+ The Thrift Market is one that has been created in a bid to counteract the increased prices of clothing items. its main objective is to provide an affordable and quality platform for second-hand c[...]
 
 ##  Website Goals and Object
-The primary goal of this website is to develop a user-friendly and aesthetically pleasing platform that enables customers to easily search for clothing.This platform attempts to merge the experience of a physical thrift shop with effiencies of today's online shopping websites.Finally,this website strives to contribute to effective  business operations by untilizing  important indicators like Gross Profit Margin, Inventory Turnover Ratio, Average Transcation Value(ATV), Donation Conversion Rate, and Customer Acquistion Cost (CAC).
+The primary goal of this website is to develop a user-friendly and aesthetically pleasing platform that enables customers to easily search for clothing.This platform attempts to merge the experien[...]
 
 ## Sitemap
 ![Image alt](https://github.com/y7fjghpf8c-byte/Thrift-Market/blob/1f7f76d7cca36583c522d68f93a98b0e28ff093b/Images/sitemap.png)
@@ -20,7 +20,7 @@ The primary goal of this website is to develop a user-friendly and aesthetically
 
 ## Key Features and Function
 
-The website shall have important pages like the Home Page which features navigational links and promotional elements, the About Us page , which explains the organization's history, the Services page, Which highlights the various clothes available, the Contact Page, which includes contact forms, and the schedule Page, Which has the operating hours of the business. The site will feature a modern desgin, which will have easy navigation, logical sections, and excellent product visuals. The website will be developed using HTML, CSS , and JavaScript with Visual Studio Code, GitHub and React.
+The website shall have important pages like the Home Page which features navigational links and promotional elements, the About Us page , which explains the organization's history, the Services pa[...]
 
 ## Timeline and Milestones
 
@@ -74,42 +74,35 @@ SEO:
 
 ## Reference List
 
-Advertising Solutions,2025. How Much Does a Website Design Cost in South Africa?[+Calculator][2026 Guide].[Online] Available at:[< Web Design Costs in South Africa in 2026 (Packages from R2950)>](https://advertisingsolutions.co.za/website-design-cost-south-africa/)[Accessed 27 March 2026].
+Advertising Solutions,2025. How Much Does a Website Design Cost in South Africa?[+Calculator][2026 Guide].[Online] Available at:[< Web Design Costs in South Africa in 2026 (Packages from R2950)>]([...]
 
 
-Business PlannerIq,2024. Mission and Vision Statements for Food Businesses: 19+Examples[Online]Available at:[<Mission and Vision Statements for Food Business: 19+ Examples - Business Planner®>](https://businessplannerhq.com/mission-and-vision-statements-for-food-business/)[Accessed 17 March 2026].
+Business PlannerIq,2024. Mission and Vision Statements for Food Businesses: 19+Examples[Online]Available at:[<Mission and Vision Statements for Food Business: 19+ Examples - Business Planner®>](h[...]
 
-Bro Code, 2023.How to accept Javascript USER INPUT in 5 mintues[Video]Available at:[<How to accept JavaScript USER INPUT in 5 minutes>](https://www.youtube.com/watch?v=JeXqaKeJSRI&list=PLZPZq0r_RZOO1zkgO4bIdfuLpizCeHYKv&index=4)[Accessed 15 June 2026]
+Bro Code, 2023.How to accept Javascript USER INPUT in 5 mintues[Video]Available at:[<How to accept JavaScript USER INPUT in 5 minutes>](https://www.youtube.com/watch?v=JeXqaKeJSRI&list=PLZPZq0r_RZ[...]
 
 Codex Community,2026.How to Wiframe in Figma 2026[Online Video] Available at:[< How to Wireframe in Figma in 2026>](https://www.youtube.com/watch?v=qWIdforZ9x0)[Accessed 19 March 2026].
 
-DesignSpo, 2024.The ULTIMATE Guide To Typography For Beginners[Online Video]Available at:[< (757) The ULTIMATE Guide To Typography For Beginners - YouTube>](https://www.youtube.com/watch?v=AXpxZMRM1EY)[Accessed 20 March 2026].
+DesignSpo, 2024.The ULTIMATE Guide To Typography For Beginners[Online Video]Available at:[< (757) The ULTIMATE Guide To Typography For Beginners - YouTube>](https://www.youtube.com/watch?v=AXpxZMR[...]
 
 freeCodeCamp,2026.freeCodeCamp.org.[Online]Available at:[<freeCodeCamp.org>](https://www.freecodecamp.org)[Accessed 1 May 2026]
 
-Fireship,2021. I built the same app 10 times//Which JS Framework is best?[Online video][Available at<I built the same app 10 times // Which JS Framework is best?>](https://www.youtube.com/watch?v=cuHDQhDhvPE)[Accessed 19 March 2026]
+Fireship,2021. I built the same app 10 times//Which JS Framework is best?[Online video][Available at<I built the same app 10 times // Which JS Framework is best?>](https://www.youtube.com/watch?v=[...]
 
 Florin Pop, 2019. JavaScript Client-side Form Validation[Online Video] Available at:[<JavaScript Client-side Form Validation>](https://www.youtube.com/watch?v=rsd4FNGTRBw)[Accessed 15 June 2026]
 
 Flux Academy,2022.Complete Layout Guide [Online Video] Available at:[< (757) Complete Layout Guide - YouTube>](https://www.youtube.com/watch?v=AXpxZMRM1EY)[Accessed 25 March 2026].
 
 
-Startup Financial Projection,2025. What Are the Core 5 KPIs for Thrift Store Business Success?.[Online]Available at:[< What are core 5 KPIs of Thrift Store Business?>](https://startupfinancialprojection.com/blogs/kpis/thrift-store)[Accessed 28 March 2026].
+Startup Financial Projection,2025. What Are the Core 5 KPIs for Thrift Store Business Success?.[Online]Available at:[< What are core 5 KPIs of Thrift Store Business?>](https://startupfinancialproj[...]
 
-Site Ground,2024. Website Planning in 9 Steps + Checklist [Online]Available at:[<Website Planning in 9 Steps + Checklist - SiteGround Academy>](https://www.siteground.com/academy/website-planning/)[Accessed 29 March 2026]
+Site Ground,2024. Website Planning in 9 Steps + Checklist [Online]Available at:[<Website Planning in 9 Steps + Checklist - SiteGround Academy>](https://www.siteground.com/academy/website-planning/[...]
 
-Tutorials with alex,2026.How to create Sitemap in Figma (2026 Full Guide)[Online Video]Available at: [<How to Create a Sitemap in Figma (2026 Full Guide)>](https://www.youtube.com/watch?v=-gIgIia9-6I)[Accessed 20 March 2026]
+Tutorials with alex,2026.How to create Sitemap in Figma (2026 Full Guide)[Online Video]Available at: [<How to Create a Sitemap in Figma (2026 Full Guide)>](https://www.youtube.com/watch?v=-gIgIia[...]
 
-Webflow team, 2025.19 essential web designer skills for 2025.webflow, [blog]12 May.Available at:[< 19 essential web designer skills for 2025>](https://webflow.com/blog/web-designer-skills?msockid=017a4c6ced4c64ca233c59edec6e6576)[Accessed 20 March 2026].
+Webflow team, 2025.19 essential web designer skills for 2025.webflow, [blog]12 May.Available at:[< 19 essential web designer skills for 2025>](https://webflow.com/blog/web-designer-skills?msockid[...]
 
 W3Schools,2026.W3Schools Online Web Tutorials.[Online] Available at:[<W3Schools Online Web Tutorials>](https://www.w3schools.com)[Accessed 1 May]
-
-
-
-
-
-
-
 
 
 
