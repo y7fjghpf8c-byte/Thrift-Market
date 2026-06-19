@@ -30,21 +30,21 @@ Part 2:Focuses on completing the full website development and implentation weeks
 
 ## Part 2 CSS and Responsive design
 CSS styling:
-*external stylesheet was linked to all HTML pages, using cosistent naming
-*Styles such as font,size,colour scheme and paddings, margin were established
-*Visual styles were implemented(color,background-color,border,box-shadow)
-*Built a layout structure using CSS flexbox
-*Typography styling was implemented aswell as typographic scales
+* external stylesheet was linked to all HTML pages, using cosistent naming
+* Styles such as font,size,colour scheme and paddings, margin were established
+* Visual styles were implemented(color,background-color,border,box-shadow)
+* Built a layout structure using CSS flexbox
+* Typography styling was implemented aswell as typographic scales
 Responsive design:
-*Used relative units for sizing
-*Made use of responsive images sizes and the picture element
+* Used relative units for sizing
+* Made use of responsive images sizes and the picture element
 
 ## Part 3 Enhancing Functionality and SEO
 Functionality:
-*added interactive elements such as accordations
-*Implemented an interactive Map
-*Made use of CSS and JS 
-*A form with proper HTML elements and Validation
+* added interactive elements such as accordations
+* Implemented an interactive Map
+* Made use of CSS and JS 
+* A form with proper HTML elements and Validation
 ## GUI
 ![Image alt](https://raw.githubusercontent.com/y7fjghpf8c-byte/Thrift-Market/ca05e06ff947d1c0dc565601ff300a5d5bca895f/Images/Homepage.png)
 
