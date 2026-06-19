@@ -41,7 +41,7 @@ Responsive design:
 
 ## Part 3 Enhancing Functionality and SEO
 Functionality:
-1)added interactive elements such as accordations
+-added interactive elements such as accordations
 2)Implemented an interactive Map
 3)Made use of CSS and JS 
 4)A form with proper HTML elements and Validation
