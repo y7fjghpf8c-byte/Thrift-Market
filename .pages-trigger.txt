@@ -1,0 +1,3 @@
+Trigger Pages rebuild
+
+Committed to trigger GitHub Pages workflow for log inspection.
