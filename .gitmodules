@@ -1,1 +1,3 @@
-# Submodules configuration file
+[submodule "THRIFT MARKET"]
+	path = THRIFT MARKET
+	url = https://github.com/y7fjghpf8c-byte/Thrift-Market.git
