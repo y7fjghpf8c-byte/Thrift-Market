@@ -35,7 +35,9 @@ CSS styling:
 * Visual styles were implemented(color,background-color,border,box-shadow)
 * Built a layout structure using CSS flexbox
 * Typography styling was implemented aswell as typographic scales
+
 Responsive design:
+
 * Used relative units for sizing
 * Made use of responsive images sizes and the picture element
 
