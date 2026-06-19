@@ -1,4 +1,4 @@
-## Thrift-Market
+# Thrift-Market
 
 ## Name and Surname:Tshupetso Kgahlbaje Rampedi
 
