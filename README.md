@@ -1,16 +1,16 @@
 ## Thrift-Market
 
-## Name and Surname:Tshupetso Kgahlbaje Rampedi
+## Name and Surname: Tshupetso Kgahlbaje Rampedi
 
-## Subject Code:WEDE5020
-## Student Number:10523603
+## Subject Code: WEDE5020
+## Student Number: 10523603
 
-## Project Organisation:
- 
- The Thrift Market is one that has been created in a bid to counteract the increased prices of clothing items. its main objective is to provide an affordable and quality platform for second-hand c[...]
+## Project Organisation
 
-##  Website Goals and Object
-The primary goal of this website is to develop a user-friendly and aesthetically pleasing platform that enables customers to easily search for clothing.This platform attempts to merge the experien[...]
+The Thrift Market was created to help counteract rising clothing prices. Its main objective is to provide an affordable, quality platform for second-hand clothing and accessories for price-conscious customers.[...]
+
+## Website Goals and Objectives
+The primary goal of this website is to develop a user-friendly and aesthetically pleasing platform that enables customers to easily search for clothing. This platform attempts to merge the experience of browsing second-hand items with clear navigation and responsive design.[...]
 
 ## Sitemap
 ![Image alt](https://github.com/y7fjghpf8c-byte/Thrift-Market/blob/1f7f76d7cca36583c522d68f93a98b0e28ff093b/Images/sitemap.png)
@@ -20,40 +20,44 @@ The primary goal of this website is to develop a user-friendly and aesthetically
 
 ## Key Features and Function
 
-The website shall have important pages like the Home Page which features navigational links and promotional elements, the About Us page , which explains the organization's history, the Services pa[...]
+The website will include important pages such as the Home Page (with navigational links and promotional elements), the About Us page (which explains the organization's history), and the Services page.[...]
 
 ## Timeline and Milestones
 
-Them project will be completed in two phases 
-Part 1:includes planning and research in weeks 1-2, system design in Week 3, and intial HTML development from Weeks 4-6.
-Part 2:Focuses on completing the full website development and implentation weeks 1-6
+The project will be completed in two phases:
 
-## Part 2 CSS and Responsive design
+Part 1: Planning and research (Weeks 1–2), system design (Week 3), and initial HTML development (Weeks 4–6).
+
+Part 2: Completing full website development and implementation (Weeks 1–6).
+
+## Part 2 — CSS and Responsive Design
+
 CSS styling:
-* external stylesheet was linked to all HTML pages, using cosistent naming
-* Styles such as font,size,colour scheme and paddings, margin were established
-* Visual styles were implemented(color,background-color,border,box-shadow)
-* Built a layout structure using CSS flexbox
-* Typography styling was implemented aswell as typographic scales
+* External stylesheet linked to all HTML pages, using consistent naming.
+* Styles for fonts, sizes, colour scheme, paddings, and margins were established.
+* Visual styles implemented (color, background-color, border, box-shadow).
+* A layout structure built using CSS Flexbox.
+* Typography styling and typographic scales applied.
 
 Responsive design:
 
-* Used relative units for sizing
-* Made use of responsive images sizes and the picture element
-* Tested across different devices using dev tools
-*  Breakpoints were identified amd  media queries, switch-column to single-column on smaller screens wa used
+* Used relative units for sizing.
+* Used responsive image sizes and the picture element.
+* Tested across different devices using dev tools.
+* Breakpoints were identified and media queries implemented; switched columns to single-column on smaller screens.
 
-## Part 3 Enhancing Functionality and SEO
+## Part 3 — Enhancing Functionality and SEO
 Functionality:
-* added interactive elements such as accordations
-* Implemented an interactive Map
-* Made use of CSS and JS 
-* A form with proper HTML elements and Validation, and AJAX submission
-* enquiry and contact form are intergraded on the same page
+* Added interactive elements such as accordions.
+* Implemented an interactive map.
+* Used CSS and JavaScript for interactivity.
+* Added a form with proper HTML elements, validation, and AJAX submission.
+* Enquiry and contact forms integrated on the same page.
 
 SEO:
-* On-page: i enured that title tags, meta descriptions, header tags , image alt text , clear URLs  and internal linking aswell as mobile-friendliness was included
-* Off-page: backlinks, social media promotion and local SEO were included
+* On-page: I ensured that title tags, meta descriptions, header tags, image alt text, clear URLs, and internal linking as well as mobile-friendliness were included.
+* Off-page: Backlinks, social media promotion, and local SEO were considered.
+
 ## GUI
 ![Image alt](https://raw.githubusercontent.com/y7fjghpf8c-byte/Thrift-Market/ca05e06ff947d1c0dc565601ff300a5d5bca895f/Images/Homepage.png)
 
@@ -74,40 +78,30 @@ SEO:
 
 ## Reference List
 
-Advertising Solutions,2025. How Much Does a Website Design Cost in South Africa?[+Calculator][2026 Guide].[Online] Available at:[< Web Design Costs in South Africa in 2026 (Packages from R2950)>]([...]
+Advertising Solutions, 2025. How Much Does a Website Design Cost in South Africa? [+Calculator] [2026 Guide]. [Online] Available at: [< Web Design Costs in South Africa in 2026 (Packages from R2950)>]([...]
 
+Business PlannerIq, 2024. Mission and Vision Statements for Food Businesses: 19+ Examples [Online] Available at: [<Mission and Vision Statements for Food Business: 19+ Examples - Business Planner®>](h[...]
 
-Business PlannerIq,2024. Mission and Vision Statements for Food Businesses: 19+Examples[Online]Available at:[<Mission and Vision Statements for Food Business: 19+ Examples - Business Planner®>](h[...]
+Bro Code, 2023. How to accept JavaScript USER INPUT in 5 minutes [Video] Available at: [<How to accept JavaScript USER INPUT in 5 minutes>](https://www.youtube.com/watch?v=JeXqaKeJSRI&list=PLZPZq0r_RZ[...]
 
-Bro Code, 2023.How to accept Javascript USER INPUT in 5 mintues[Video]Available at:[<How to accept JavaScript USER INPUT in 5 minutes>](https://www.youtube.com/watch?v=JeXqaKeJSRI&list=PLZPZq0r_RZ[...]
+Codex Community, 2026. How to Wireframe in Figma 2026 [Online Video] Available at: [< How to Wireframe in Figma in 2026>](https://www.youtube.com/watch?v=qWIdforZ9x0) [Accessed 19 March 2026].
 
-Codex Community,2026.How to Wiframe in Figma 2026[Online Video] Available at:[< How to Wireframe in Figma in 2026>](https://www.youtube.com/watch?v=qWIdforZ9x0)[Accessed 19 March 2026].
+DesignSpo, 2024. The ULTIMATE Guide To Typography For Beginners [Online Video] Available at: [< (757) The ULTIMATE Guide To Typography For Beginners - YouTube>](https://www.youtube.com/watch?v=AXpxZMR[...]
 
-DesignSpo, 2024.The ULTIMATE Guide To Typography For Beginners[Online Video]Available at:[< (757) The ULTIMATE Guide To Typography For Beginners - YouTube>](https://www.youtube.com/watch?v=AXpxZMR[...]
+freeCodeCamp, 2026. freeCodeCamp.org. [Online] Available at: [<freeCodeCamp.org>](https://www.freecodecamp.org) [Accessed 1 May 2026]
 
-freeCodeCamp,2026.freeCodeCamp.org.[Online]Available at:[<freeCodeCamp.org>](https://www.freecodecamp.org)[Accessed 1 May 2026]
+Fireship, 2021. I built the same app 10 times // Which JS Framework is best? [Online video] Available at: [I built the same app 10 times // Which JS Framework is best?](https://www.youtube.com/watch?v=[...]
 
-Fireship,2021. I built the same app 10 times//Which JS Framework is best?[Online video][Available at<I built the same app 10 times // Which JS Framework is best?>](https://www.youtube.com/watch?v=[...]
+Florin Pop, 2019. JavaScript Client-side Form Validation [Online Video] Available at: [<JavaScript Client-side Form Validation>](https://www.youtube.com/watch?v=rsd4FNGTRBw) [Accessed 15 June 2026]
 
-Florin Pop, 2019. JavaScript Client-side Form Validation[Online Video] Available at:[<JavaScript Client-side Form Validation>](https://www.youtube.com/watch?v=rsd4FNGTRBw)[Accessed 15 June 2026]
+Flux Academy, 2022. Complete Layout Guide [Online Video] Available at: [< (757) Complete Layout Guide - YouTube>](https://www.youtube.com/watch?v=AXpxZMRM1EY) [Accessed 25 March 2026].
 
-Flux Academy,2022.Complete Layout Guide [Online Video] Available at:[< (757) Complete Layout Guide - YouTube>](https://www.youtube.com/watch?v=AXpxZMRM1EY)[Accessed 25 March 2026].
+Startup Financial Projection, 2025. What Are the Core 5 KPIs for Thrift Store Business Success? [Online] Available at: [< What are core 5 KPIs of Thrift Store Business?>](https://startupfinancialproj[...]
 
+Site Ground, 2024. Website Planning in 9 Steps + Checklist [Online] Available at: [<Website Planning in 9 Steps + Checklist - SiteGround Academy>](https://www.siteground.com/academy/website-planning/[...]
 
-Startup Financial Projection,2025. What Are the Core 5 KPIs for Thrift Store Business Success?.[Online]Available at:[< What are core 5 KPIs of Thrift Store Business?>](https://startupfinancialproj[...]
+Tutorials with Alex, 2026. How to create Sitemap in Figma (2026 Full Guide) [Online Video] Available at: [<How to Create a Sitemap in Figma (2026 Full Guide)>](https://www.youtube.com/watch?v=-gIgIia[...]
 
-Site Ground,2024. Website Planning in 9 Steps + Checklist [Online]Available at:[<Website Planning in 9 Steps + Checklist - SiteGround Academy>](https://www.siteground.com/academy/website-planning/[...]
+Webflow team, 2025. 19 essential web designer skills for 2025. Webflow [blog] 12 May. Available at: [< 19 essential web designer skills for 2025>](https://webflow.com/blog/web-designer-skills?msockid[...]
 
-Tutorials with alex,2026.How to create Sitemap in Figma (2026 Full Guide)[Online Video]Available at: [<How to Create a Sitemap in Figma (2026 Full Guide)>](https://www.youtube.com/watch?v=-gIgIia[...]
-
-Webflow team, 2025.19 essential web designer skills for 2025.webflow, [blog]12 May.Available at:[< 19 essential web designer skills for 2025>](https://webflow.com/blog/web-designer-skills?msockid[...]
-
-W3Schools,2026.W3Schools Online Web Tutorials.[Online] Available at:[<W3Schools Online Web Tutorials>](https://www.w3schools.com)[Accessed 1 May]
-
-
-
-
-
-
-
-
+W3Schools, 2026. W3Schools Online Web Tutorials. [Online] Available at: [<W3Schools Online Web Tutorials>](https://www.w3schools.com) [Accessed 1 May]
